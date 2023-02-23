@@ -32,7 +32,7 @@
   
 #Nonetheless, this function can be quite slow when applied over large spatial extents, with the watershed transformation itself being the major bottleneck.
 #I have tried implementing the procedure in Python, where the data preperation steps are much faster. 
-#However, the speed of the watershed transform function from the 'skimage' package in Python is comparable 
+#However, the watershed transform function from 'skimage' in Python does not offer noticeable improvement. 
 #This is to be expected as EBImage calls C++ source code
 #I have also found the results from EBImage::watershed to be much better and cleaner 
 #e.g., skimage often segments long, relatively narrow areas of habitat into several independent features, 
