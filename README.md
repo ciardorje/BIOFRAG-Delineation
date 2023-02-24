@@ -1,9 +1,13 @@
-# BIOFRAG-Delineation
+# BIOFRAG Habitat Fragment Delineation
 R code to implement the habitat fragment delineation method used by the BIOFRAG project (https://biofrag.wordpress.com/). Adapted from the original methodology created by M. Pfeifer, V. Lefebvre and R. Ewers (https://github.com/VeroL/BioFrag). 
+
+## Background ##
 
 Habitat fragments are most simply defined as isolated areas of suitable habitat, encompassed by a relatively inhospitable anthropogenic matrix. However, in many instances, patches of habitat may be connected to eachother by habitat corridors, generally of smaller diameter than the patches themselves. Whether two connected patches of habitat should be classified as one entity or two seperate fragments arguably depends on the level of functional connectivity provided by the connecting corridor/s. 
 
 The level of functional connectivity that habitat corridors provide is largely determined by their width and degree of degradation, with narrow, degraded corridors often supporting only a depauperate biotic assemblage, similar to that of the matrix. However, traditional patch delineation methods, e.g., connected components labelling, group all connected habitat features into one fragment, regardless of the size of connecting corridors. Delineating habitat patches without consideration of the size of corridors could thus lead to the grouping of areas of habitat with limited functional connectivity and, in turn, result in misleading inference on the effects of any derived fragmentation metrics on biodiversity. 
+
+### The Method ###
 
 To enable . 
 
@@ -18,7 +22,9 @@ The process consists of 6 key steps (see below figure for visual demonstration):
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92942535/221204121-6f1c0896-a48a-437f-a505-bc33534ca3bd.png" width="450" height="600">
 </p>
-  
+ 
+ #### Results ####
+ 
 In the resulting output, independent habitat fragments are classified according to four criteria:
 
   1) Habitat patches that are entirely isolated are classed as independent fragments.
