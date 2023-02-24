@@ -16,10 +16,10 @@ To enable .
 The process consists of 6 key steps (see below figure for visual demonstration):
   - A) If required, a categorical land cover map for the focal landscape is converted to a binary habitat raster, where 1 = Habitat and 0 = Matrix.
   - B) The binary habitat raster is then converted to a distance matrix, with cell values representing the distance between each forest cell and the nearest matrix cell (i.e., distance to forest edge).
-  - C) A distance threshod is applied, whereby all forest cells further from an edge than a pre-defined edge effect distance are assigned the same value (here, the edge effect distance in units of raster cells, plus 2).
+  - C) A distance threshod is applied, whereby all forest cells with an edge distance greater than pre-defined edge-effect distance are assigned the same value (here, the edge effect distance in units of raster cells, plus 2).
   - D) All local maxima below the pre-defined edge effect distance are flattened. This is equivalent to a H-Maxima transform and prevents small subsidiary areas of habitat that do not contain core habitat from being distinguished from larger, connected patches.
-  - E) The resultant distance matrix is inverted (i.e., multiplied by -1), so that cells far from a forest edge hold lower values and cells close to a forest edge hold higher values.
-  - F) The marker-controlled watershed transformation is applied. Conceptually, this fills the landscape with water, treating cell values as elevation, and identifies as distinct elements (i.e., forest patches) areas where the water pools. 
+  - E) The resultant distance matrix is inverted (i.e., multiplied by -1), so that cell values decrease with increasing distance from the matrix.
+  - F) The marker-controlled watershed transformation is applied. Conceptually, this fills the landscape with water, treating cell values as elevation, and identifies as distinct elements (i.e., habitat fragments) areas where the water pools. 
 <br/>
 <br/>
 <p align="center">
