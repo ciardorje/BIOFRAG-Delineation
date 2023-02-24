@@ -14,7 +14,7 @@ N.B.: The terms 'Patch' and 'Fragment' are often used interchangeably in fragmen
 Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat corridor' and the bulbous weights on either end are 'habitat patches' - the key difference between the elements is their width/diameter. 
 <br/>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92942535/221232658-dcf2aa70-9c02-4ff4-b587-4417a0b2b0cb.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/92942535/221232658-dcf2aa70-9c02-4ff4-b587-4417a0b2b0cb.png" width="250" height="200">
 <br/>
 Then, once a delineation procedure has been applied and the habitat patches have either been grouped or seperated, I refer to the resultant classified elements as 'fragments'.  
 
