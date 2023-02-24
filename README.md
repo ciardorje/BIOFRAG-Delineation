@@ -16,7 +16,7 @@ The process consists of 6 key steps (see below figure for visual demonstration):
   F) The marker-controlled watershed transformation is applied. Conceptually, this fills the landscape with water, treating cell values as elevation, and identifies as      distinct elements (i.e., forest patches) areas where the water pools. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92942535/221204121-6f1c0896-a48a-437f-a505-bc33534ca3bd.png" width="600" height="800">
+<img src="https://user-images.githubusercontent.com/92942535/221204121-6f1c0896-a48a-437f-a505-bc33534ca3bd.png" width="450" height="600">
 </p>
   
 In the resulting output, independent habitat fragments are classified according to four criteria:
