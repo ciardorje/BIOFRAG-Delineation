@@ -11,14 +11,11 @@ This delineation procedure aims to overcome this potential issue by enabling res
 
 N.B.: The terms 'Patch' and 'Fragment' are often used interchangeably in fragmentation ecology and could thus lead to some confusion in this vignette. So, I will use a dumbbell as a useful metaphor to hopefully clarify how I refer to 'patches', 'fragments' and 'corridors' - again, this terminology is admittedly not the most clear, but hopefully if you use this methodology you can just say 'We delineated habitat fragments using...' and not have to get into how elements are considered before and after delineation. 
 
-Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat corridor' and the bulbous weights on either end are 'habitat patches' - the key difference between the elements is their width/diameter. 
+Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat corridor' and the bulbous weights on either end are 'habitat patches' - the key difference between the elements is their width/diameter. Then, once a delineation procedure has been applied and the habitat patches have either been grouped or seperated, I refer to the resultant classified elements as 'fragments'.  
 <br/>
-<p align="left">
-<img src="https://user-images.githubusercontent.com/92942535/221232658-dcf2aa70-9c02-4ff4-b587-4417a0b2b0cb.png" width="300" height="300">
-  <p align="right">
-    <img src="https://user-images.githubusercontent.com/92942535/221234558-db90284e-00bc-4374-9104-d1ad76a60d4c.png" width="300" height="300">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92942535/221236002-71d07f41-bca7-4bd2-8e24-6812b9f0486c.png" width="300" height="250">
 <br/>
-Then, once a delineation procedure has been applied and the habitat patches have either been grouped or seperated, I refer to the resultant classified elements as 'fragments'.  
 
 ## The Method ##
 
