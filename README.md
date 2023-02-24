@@ -3,7 +3,7 @@ An R function to implement the habitat fragment delineation method used by the B
 
 ## Background ##
 
-Habitat fragments are most simply defined as isolated areas of suitable habitat, encompassed by a relatively inhospitable anthropogenic matrix. However, in many instances, patches of habitat may be connected to eachother by habitat corridors, which are of smaller diameter than the patches themselves. Whether two connected patches of habitat should be classified as one entity or two seperate fragments arguably depends on the level of functional connectivity provided by the connecting corridor/s. 
+Habitat fragments are most simply defined as isolated areas of suitable habitat, encompassed by a relatively inhospitable anthropogenic matrix. However, patches of habitat may often be connected to eachother by habitat corridors, which are of smaller diameter than the patches themselves. Whether two connected patches of habitat should be classified as one entity or two seperate fragments arguably depends on the level of functional connectivity provided by the connecting corridor/s. 
 
 The level of functional connectivity that habitat corridors provide is largely determined by their width and degree of degradation, with narrow, degraded corridors often supporting only a depauperate biotic assemblage, similar to that of the matrix. However, traditional patch delineation methods, e.g., connected components labelling, group all connected habitat features into one fragment, regardless of the size of connecting corridors. Delineating habitat patches in this way could lead to the grouping of areas of habitat with limited functional connectivity and, in turn, result in misleading inference on the effects of any derived fragmentation metrics on biodiversity. 
 
@@ -11,9 +11,9 @@ This delineation procedure aims to overcome this potential issue by enabling res
 
 ### A Note on Terminology ###
 
-The terms 'Patch' and 'Fragment' are often used interchangeably in fragmentation ecology and could thus lead to some confusion in this vignette. So, I will use a dumbbell as a useful metaphor to hopefully clarify how I refer to 'patches', 'fragments' and 'corridors' - again, this terminology is admittedly not the most clear, but hopefully if you use this methodology you can just say 'We delineated habitat fragments using...' and not have to get into how elements are considered before and after delineation. 
+The terms 'Patch' and 'Fragment' are often used interchangeably in fragmentation ecology and could thus lead to some confusion in this vignette. So, I will use a dumbbell as a metaphor to hopefully clarify how I refer to 'patches', 'fragments' and 'corridors' - again, this terminology is admittedly not the most clear, but hopefully if you use this methodology you can just say 'We delineated habitat fragments using...' and not have to get into how elements are considered before and after delineation. 
 
-Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat corridor' and the bulbous weights on either end are 'habitat patches' - the key difference between the elements is their width/diameter (A in the figure below). Then, once a delineation procedure has been applied and the habitat patches have either been grouped or seperated by the procedure, I refer to the resultant classified elements as 'fragments' (B in the figure below).  
+Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat corridor' and the bulbous weights on either end are 'habitat patches' - the key difference between the elements is their width/diameter (A in the figure below). Then, once a delineation procedure has been applied and the habitat patches have either been grouped or seperated, I refer to the resultant classified elements as 'fragments' (B in the figure below).  
 <br/>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92942535/221236002-71d07f41-bca7-4bd2-8e24-6812b9f0486c.png" width="700" height="250">
