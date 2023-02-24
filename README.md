@@ -28,7 +28,7 @@ The process consists of 6 key steps (see below figure for visual demonstration):
 <br/>
 <br/>
 
-## Results ##
+## Outputs ##
  
 In the resulting output, independent habitat fragments are classified according to four criteria:
 
