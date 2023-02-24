@@ -9,7 +9,7 @@ The level of functional connectivity that habitat corridors provide is largely d
 
 This delineation procedure aims to overcome this potential issue by enabling researchers to incorporate ecological knowledge on taxa's edge related habitat preferences and habitat corridor use. 
 
-###A Note on Terminology###
+### A Note on Terminology ###
 
 The terms 'Patch' and 'Fragment' are often used interchangeably in fragmentation ecology and could thus lead to some confusion in this vignette. So, I will use a dumbbell as a useful metaphor to hopefully clarify how I refer to 'patches', 'fragments' and 'corridors' - again, this terminology is admittedly not the most clear, but hopefully if you use this methodology you can just say 'We delineated habitat fragments using...' and not have to get into how elements are considered before and after delineation. 
 
