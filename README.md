@@ -37,7 +37,7 @@ The process consists of 6 key steps (see below figure for visual demonstration):
 <br/>
 <br/>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92942535/221204121-6f1c0896-a48a-437f-a505-bc33534ca3bd.png" width="550" height="700">
+<img src="https://user-images.githubusercontent.com/92942535/221204121-6f1c0896-a48a-437f-a505-bc33534ca3bd.png" width="700" height="800">
 </p>
 <br/>
 <br/>
