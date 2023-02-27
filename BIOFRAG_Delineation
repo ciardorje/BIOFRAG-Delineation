@@ -121,7 +121,7 @@ BIOFRAGr <- function(lc_map, res_m, edge_depth,
       lc_map <- mask(lc_nogaps, area_mask) 
       
       #Free up memory
-      rm(c(ccl_polys, chunks, lc_nogaps, polys_nogaps)); gc()
+      rm(c(ccl_polys, chunks, lc_nogaps, polys_nogaps)); gc(verbose = F)
       
     }
     
@@ -143,7 +143,7 @@ BIOFRAGr <- function(lc_map, res_m, edge_depth,
     edge_dists <- extend(edge_dists, extent(area_mask), value = NA) #ensure extent remains same
     
     #Free up memory
-    rm(c(xy.suit, xy.nonsuit)); gc()
+    rm(c(xy.suit, xy.nonsuit)); gc(verbose = F)
     
     #Threshold edge distances for watershed delineation
     #standardise all cells deeper than min corridor width to same value
