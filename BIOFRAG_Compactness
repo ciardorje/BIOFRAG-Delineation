@@ -1,3 +1,10 @@
+#Function to calculate the BIOFRAG patch shape complexity (termed compactness) index. 
+#This was designed to minimise correlation between patch size and patch shape
+#The formula is based on the relative length of the maximum chord of a patch polygon 
+#and the diameter of a circle of equivalent area
+#The metric has a lower bound of 1 (indicating a patch is maximally compact, i.e., circular)
+#Higher values indicate greater patch shape complexity
+
 compactness <- function(polygon){
 
   #Get polygon coordinates
