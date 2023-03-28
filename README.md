@@ -29,11 +29,11 @@ As the extent of edge effects often vary among taxa, it may be neccesary to cond
 
 The process consists of 6 key steps (see below figure for visual demonstration):
   - A) If required, a categorical land cover map for the focal landscape is converted to a binary habitat raster, where 1 = Habitat and 0 = Matrix.
-  - B) The binary habitat raster is then converted to a distance matrix, with cell values representing the distance between each forest cell and the nearest matrix cell (i.e., distance to forest edge).
-  - C) A distance threshod is applied, whereby all forest cells with an edge distance greater than pre-defined edge-effect distance are assigned the same value (here, the edge effect distance in units of raster cells, plus 2).
+  - B) The binary habitat raster is then converted to a distance matrix, where cell values represent the distance between each habitat cell and the nearest non-habitat cell (i.e., distance to habitat edge).
+  - C) A distance threshod is applied, whereby all habitat cells holding a value greater than the user-defined edge-effect distance are assigned the same value (the edge effect distance in units of raster cells, plus 2).
   - D) All local maxima below the pre-defined edge effect distance are flattened. This is equivalent to a H-Maxima transform and prevents small subsidiary areas of habitat that do not contain core habitat from being distinguished from larger, connected patches.
   - E) The resultant distance matrix is inverted (i.e., multiplied by -1), so that cell values decrease with increasing distance from the matrix.
-  - F) The marker-controlled watershed transformation is applied. Conceptually, this fills the landscape with water, treating cell values as elevation, and identifies as distinct elements (i.e., habitat fragments) areas where the water pools. 
+  - F) The marker-controlled watershed transformation is applied. Conceptually, this fills the landscape with water, treating cell values as altitudes, and identifies as distinct elements (i.e., habitat fragments) areas where the water pools. 
 <br/>
 <br/>
 <p align="center">
