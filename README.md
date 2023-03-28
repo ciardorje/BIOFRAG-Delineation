@@ -1,5 +1,5 @@
 # BIOFRAG Habitat Fragment Delineation
-An R function to implement the habitat fragment delineation method used by the BIOFRAG project (https://biofrag.wordpress.com/). Adapted from the original methodology created by M. Pfeifer, V. Lefebvre and R. Ewers (https://github.com/VeroL/BioFrag). 
+An R function to implement the habitat fragment delineation method and patch shape metric used by the BIOFRAG project (https://biofrag.wordpress.com/). Adapted from the original methodology created by M. Pfeifer, V. Lefebvre and R. Ewers (https://github.com/VeroL/BioFrag). 
 
 ## Background ##
 
