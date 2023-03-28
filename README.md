@@ -54,4 +54,4 @@ In the resulting output, independent habitat fragments are classified according 
 BIOFRAGr provides two outputs:
 
   1) A raster where each cell holds the number of the identified fragment to which it belongs
-  2) A sf data frame holding polygons for each identified fragment
+  2) An sf data frame holding polygons for each identified fragment
