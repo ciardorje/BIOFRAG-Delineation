@@ -23,7 +23,7 @@ Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat c
 
 The method is based upon the watershed transformation commonly used in image segmentation, with a few prior steps added to improve ecological relevancy. These steps are centred around the extent of edge effects experienced by organisms residing within habitat patches; that is, the within-habitat distance from a matrix-habitat border over which abiotic and biotic conditions differ from those in continuous natural habitat. This in turn leads to the concept of 'core' habitat - habitat which is far enough from the matrix that it is not subject to edge effects, i.e., its biotic and abiotic conditions may be considered similar to those of natural, continuous habitat.
 
-As in traditional delineation methods, this method defines entirely isolated habitat patches as independent fragments. However, the benefit of this procedure is that  habitat patches connected by corridors below a user-defined width are seperated into independent fragments, while patches connected by corridors above this width are grouped into a single fragment.  limited, especially in regard to the effects of corridor width. 
+As in traditional delineation methods, this method defines entirely isolated habitat patches as independent fragments. However, the benefit of this procedure is that  habitat patches connected by corridors below a user-defined width are seperated into independent fragments, while patches connected by corridors above this width are grouped into a single fragment. 
 
 As the extent of edge effects often vary among taxa, it may be neccesary to conduct multiple delineations of the same landscape when conducting multi-taxa analyses.
 
@@ -50,3 +50,8 @@ In the resulting output, independent habitat fragments are classified according 
   2) Patches that contain core habitat and are connected by corridors that do not contain core habitat are seperated into 2+ independent fragments.
   3) Patches that are connected by corridors that do contain core habitat are grouped into one fragment.
   4) Patches that are not entirely isolated but do not themselves contain core habitat are grouped with the largest connected patch (i.e., into a single fragment). 
+
+BIOFRAGr provides two outputs:
+
+  1) A raster where each cell holds the number of the identified fragment to which it belongs
+  2) A sf data frame holding polygons for each identified fragment
