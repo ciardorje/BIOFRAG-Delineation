@@ -67,7 +67,7 @@ if (!require("pacman")) install.packages("pacman")
 p_load(EBImage, dplyr, sf, raster, stars, RANN, parallel, doSNOW, smoothr, fasterize)
 
 #Delineation function
-BIOFRAGr <- function(lc_map, res_m, edge_depth, 
+delineate <- function(lc_map, res_m, edge_depth, 
                      gap_area = NA, corridor_width) {
   
   suppressWarnings({
