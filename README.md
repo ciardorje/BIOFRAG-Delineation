@@ -11,7 +11,7 @@ This delineation procedure aims to overcome this potential issue by enabling res
 
 ### A Note on Terminology ###
 
-The terms 'Patch' and 'Fragment' are often used interchangeably in fragmentation ecology and could thus lead to some confusion in this vignette. So, I will use a dumbbell as a metaphor to hopefully clarify how I refer to 'patches', 'fragments' and 'corridors' - again, this terminology is admittedly not the most clear, but hopefully if you use this methodology you can just say 'We delineated habitat fragments using...' and not have to get into how elements are considered before and after delineation. 
+The terms 'Patch' and 'Fragment' are often used interchangeably in fragmentation ecology and could thus lead to some confusion in this vignette. I will use a dumbbell as a metaphor to hopefully clarify how I refer to 'patches', 'fragments' and 'corridors' - again, this terminology is admittedly not the most clear, but hopefully if you use this methodology you can just say 'We delineated habitat fragments using...' and not have to get into how elements are considered before and after delineation. 
 
 Consider a dumbbell shaped piece of habitat. The narrow bar/grip is a 'habitat corridor' and the bulbous weights on either end are 'habitat patches' - the key difference between the elements is their width/diameter (A in the figure below). Then, once a delineation procedure has been applied and the habitat patches have either been grouped or seperated, I refer to the resultant classified elements as 'fragments' (B in the figure below).  
 <br/>
