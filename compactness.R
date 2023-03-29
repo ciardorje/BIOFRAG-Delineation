@@ -31,4 +31,4 @@ compactness <- function(polygon){
   return(compac)
   gc(verbose = F)
   
-}
+} 
