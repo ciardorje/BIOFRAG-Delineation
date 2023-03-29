@@ -185,4 +185,4 @@ delineate <- function(lc_map, res_m, edge_depth,
     gc()
     
   })
-}
+} 
